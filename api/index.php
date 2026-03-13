@@ -8,15 +8,15 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include('include/head.php') ?>
+    <?php include(__DIR__ .'include/head.php') ?>
     <style>
     </style>
   </head>
 
   <body>
-    <?php include('include/rolling-banner.php') ?>
+    <?php include(__DIR__ .'include/rolling-banner.php') ?>
     <header class="site-header sticky-top py-1">
-        <?php include('include/navbar.php') ?>
+        <?php include(__DIR__ .'include/navbar.php') ?>
     </header>
 
     <main>
@@ -380,9 +380,9 @@ error_reporting(E_ALL);
     </main>
 
     <footer class="text-muted py-5">
-        <?php include('include/footer.php') ?>
+        <?php include(__DIR__ .'include/footer.php') ?>
     </footer>
 
-    <?php include('include/foot.php') ?>
+    <?php include(__DIR__ .'include/foot.php') ?>
   </body>
 </html>
