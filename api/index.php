@@ -8,22 +8,22 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include(__DIR__ .'include/head.php') ?>
+    <?php include('include/head.php') ?>
     <style>
     </style>
   </head>
 
   <body>
-    <?php include(__DIR__ .'include/rolling-banner.php') ?>
+    <?php include('include/rolling-banner.php') ?>
     <header class="site-header sticky-top py-1">
-        <?php include(__DIR__ .'include/navbar.php') ?>
+        <?php include('include/navbar.php') ?>
     </header>
 
     <main>
       <!-- start BANNER -->
       <div
         class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
-        style="background-image: url('/assets/image/bg/bg1.png'); background-repeat: no-repeat; background-size: 100% 100%;"
+        style="background-image: url('../assets/image/bg/bg1.png'); background-repeat: no-repeat; background-size: 100% 100%;"
       >
         <div class="col-md-5 p-lg-5 mx-auto my-5">
           <h1 class="display-4 fw-normal">Durian Token</h1>
@@ -39,12 +39,12 @@ error_reporting(E_ALL);
         <!-- top -->
         <div
           class="product-device-1 product-device-2 shadow-sm d-none d-md-block"
-          style="background-image: url('/assets/image/creature/creature3.png'); background-repeat: no-repeat; background-size: 100% auto"
+          style="background-image: url('../assets/image/creature/creature3.png'); background-repeat: no-repeat; background-size: 100% auto"
         >
         </div>
 
         <!-- bottom -->
-        <div class="product-device shadow-sm d-none d-md-block" style="background-image: url('/assets/image/creature/creature5.png'); background-size: 100% auto"></div>
+        <div class="product-device shadow-sm d-none d-md-block" style="background-image: url('../assets/image/creature/creature5.png'); background-size: 100% auto"></div>
       </div>
       <!-- end of BANNER -->
 
@@ -58,7 +58,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="bg-dark shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product1.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product1.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
         <div
@@ -71,7 +71,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #A99D86; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product2.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #A99D86; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product2.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
       </div>
@@ -87,7 +87,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #9D8C82; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product3.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #9D8C82; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product3.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
         <div
@@ -100,7 +100,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #2B1811; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product4.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #2B1811; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product4.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
       </div>
@@ -116,7 +116,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #908029; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product1.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #908029; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product1.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
         <div
@@ -129,7 +129,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #707940; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product6.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #707940; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product6.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
       </div>
@@ -145,7 +145,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #B19251; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product7.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #B19251; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product7.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
         
@@ -159,7 +159,7 @@ error_reporting(E_ALL);
           </div>
           <div
             class="shadow-sm mx-auto"
-            style="background-color: #3E332D; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('/assets/image/product/product8.jpg'); background-repeat: no-repeat; background-size: 100% auto"
+            style="background-color: #3E332D; width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-image: url('../assets/image/product/product8.jpg'); background-repeat: no-repeat; background-size: 100% auto"
           ></div>
         </div>
       </div>
@@ -380,9 +380,9 @@ error_reporting(E_ALL);
     </main>
 
     <footer class="text-muted py-5">
-        <?php include(__DIR__ .'include/footer.php') ?>
+        <?php include('include/footer.php') ?>
     </footer>
 
-    <?php include(__DIR__ .'include/foot.php') ?>
+    <?php include('include/foot.php') ?>
   </body>
 </html>
